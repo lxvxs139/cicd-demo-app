@@ -32,7 +32,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self):
         """Test the divide function with valid input."""
-        self.assertEqual(divide(10, 2), 5)
+        self.assertEqual(divide(3, 15), 7)
 
     def test_divide_by_zero(self):
         """Test that dividing by zero raises ZeroDivisionError."""
